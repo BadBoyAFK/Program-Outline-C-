@@ -1,0 +1,86 @@
+/* Name of the Program
+Programer name
+Month Day, Year
+Explain what the program do...
+Process:
+-
+	+ 4 spaces indent...
+		+ 8 Spaces indent...
+-
+-
+*/
+
+// Pre-Processor directive:
+#include <iostream>
+#include "stdafx.h"
+
+// Global/Static variable dictionary:
+int Globa_variable(0);			// 12 spaces					/*Look like function prototype*/
+int Global_Variable2 = 2;		// Follow the upper spaces      /*Capital for global variable*/
+int Gobal_Variable{ 3 };		// Comments
+
+// Aggregate type: 
+class Name			// Explain the purpose of this class
+{
+private:
+
+protected:
+
+public:
+
+};// Class
+
+struct Name         // Explain the purpose of this structure
+{
+private:
+
+protected:
+
+public:
+
+};// Struct
+
+// Function prototype:
+int function_name(int Parameter);			// The purpose of this function
+static int function_name(void);				// the purpose of this function
+
+// Main program
+int main(void)
+{
+	// Local variable dictionary:
+	int whatever;
+
+	/* Program */
+
+
+	// Return
+    return 0;
+} // Main
+
+/* Function */
+/* function_name() - Description.
+Parameter:
+    + Parameter_name - Description.
+*/
+int function_name(int Parameter)
+{
+	return Parameter;
+}// function_name()
+
+
+
+ /*
+ Comment:
+ 1 space to indicate the close of bracket.
+ 4 spaces to explain what something does.
+ 12 spaces for explain purpose of variable, function, class, structure...
+
+ Some optional:
+ text_colour(f_colour, b_colour);
+ Sleep();							// Delay in mili-second.
+ system("cls");
+ -getche();
+ -getch();
+ -toupper();
+ -tolower();
+ */
